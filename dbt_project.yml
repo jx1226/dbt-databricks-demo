@@ -3,9 +3,7 @@ version: '1.0.0'
 config-version: 2
 require-dbt-version: [">=0.17.0"]
 
-#profile: 'my-databricks'
-
-profile: 'jaffle_shop'
+profile: 'my-databricks'
 
 model-paths: ["models"]
 analysis-paths: ["analysis"]
