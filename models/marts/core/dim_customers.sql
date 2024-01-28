@@ -1,5 +1,5 @@
 {{ config(
-    incremental_strategy='insert_overwrite',
+    incremental_strategy='append',
     materialized='table',
     file_format='delta',
     location_root='/dbfs/delta/'
